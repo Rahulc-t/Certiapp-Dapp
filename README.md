@@ -1,8 +1,6 @@
 # 🎓 CertiLink DApp: Your Digital Credential Hub
 
 Welcome to the *CertiDApp*! 🌟 This decentralized application (DApp) provides a seamless, secure, and fun way to issue and verify certificates on the blockchain. Say goodbye to fake certificates and hello to trust and transparency! 🚀
-
-![CertiLink DApp](https://github.com/Rahulc-t/certificate-dapp/blob/main/assets/Dapp.png)
  
 ---
 
@@ -10,7 +8,7 @@ Welcome to the *CertiDApp*! 🌟 This decentralized application (DApp) provides 
 
 Check out our live demo! 🎬👇
 
-[![Watch the video](https://github.com/Neethu-Muthu/Certificate-DApp/blob/main/UI/src/assets/images/Untitled%20design.png)](https://github.com/Neethu-Muthu/Certificate-DApp/blob/main/UI/src/assets/images/certiVid-7201959.webm)
+[![Watch the video]
 
 ---
 
@@ -42,7 +40,7 @@ Before you get started, make sure you have the following:
 1. *Clone the repository*:
 
    bash
-   git clone https://github.com/your-username/certificate-dapp.git
+   git clone https://github.com/Rahulc-t/Certiapp-Dapp.git
    cd certificate-dapp
 
 2. **Install dependencies**:

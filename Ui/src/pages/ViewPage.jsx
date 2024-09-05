@@ -30,19 +30,23 @@ const ViewPage = () => {
   }, [id]);
 
   return (
-    <div className="bg-blue-100 h-[1000px]">
-      <div className="text-5xl font-bold text-center pt-8">
-        <p>Kerala Blockchain Academy</p>
-      </div>
-      <div className="flex justify-center ">
-        <div className="text-center mt-16 border w-[500px] h-[700px] p-4 bg-blue-200 rounded-3xl shadow-lg shadow-black">
-          <div className="flex justify-center mt-16">
-            <img src={logo} alt="" className="w-[200px] h-[200px]" />
+    <div className="bg-blue-100 h-screen flex items-center justify-center">
+      <div className="bg-white w-[1000px] h-[700px] p-12 rounded-lg shadow-lg border-8 border-blue-300">
+        <div className="text-center">
+          <h1 className="text-6xl font-bold mb-4">CERTIFICATE</h1>
+          <img src={logo} alt="Logo" className="w-[100px] h-[100px] mx-auto mb-4" />
+        </div>
+        <p className="text-3xl mt-[100px] mb-8">
+          This is to certify that <span className="font-bold">{certs.name}</span> has successfully completed the <span className="font-bold">{certs.course}</span> course with a grade of <span className="font-bold">{certs.grade}</span> on <span className="font-bold">{certs.date}</span>.
+        </p>
+
+        <div className="flex justify-between mt-[200px]">
+          <div className="text-center">
+            <p className="text-lg">Signature</p>
+            <hr className="border-t-2 border-gray-400 w-[180px] mx-auto mt-2"/>
           </div>
-          <div className="mt-16">
-            <p className="text-2xl text-justify p-4">
-              {`This is to certify that ${certs.name} has successfully completed the ${certs.course} course with a grade of ${certs.grade} on ${certs.date}.`}
-            </p>
+          <div className="text-center">
+            <p className="text-lg font-bold">Kerala Blockchain Academy</p>
           </div>
         </div>
       </div>

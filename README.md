@@ -71,7 +71,7 @@ The DApp is designed to be user-friendly and interactive. Here’s what it offer
   
 - **📝 Issue Page**: Admins can issue new certificates by filling out a simple form with course details, candidate name, grade, and issue date.
   
-- **📜 Certificate Page**: Displays detailed certificate information fetched directly from the blockchain.
+- **📜 View Page**: Displays detailed certificate information fetched directly from the blockchain.
 
 ---
 

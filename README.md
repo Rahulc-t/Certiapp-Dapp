@@ -106,7 +106,7 @@ We welcome contributions! 🙌 Feel free to fork this project, open issues, or s
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](License) file for more details.
 
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 

@@ -91,27 +91,12 @@ const signer = await provider.getSigner();
 Admins can issue new certificates through the **Issue Certificate** page:
 
 javascript
-const tx = await instance.issue(cerid, cname, course, grade, date);
+const tx = await instance.issue(certid, name, course, grade, date);
 ```
 
 ### Verify a Certificate
 
 Users can verify certificates by entering the ID on the *Home* page. The data is securely fetched from the blockchain!
-
----
-
-## 🎨 Screenshots
-
-### 🏠 Home Page
-![Home Page](https://github.com/Neethu-Muthu/Certificate-DApp/blob/main/UI/src/assets/images/home.png)
-
-### 📝 Issue Certificate Page
-![Issue Certificate Page](https://github.com/Neethu-Muthu/Certificate-DApp/blob/main/UI/src/assets/images/issueCert.png)
-
-### 📜 Certificate Display
-![Certificate Display](https://github.com/Neethu-Muthu/Certificate-DApp/blob/main/UI/src/assets/images/view.png)
-
----
 
 ## 🤝 Contributing
 

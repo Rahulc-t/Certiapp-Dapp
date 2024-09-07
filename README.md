@@ -8,7 +8,7 @@ Welcome to the *CertiDApp*! 🌟 This decentralized application (DApp) provides 
 
 Check out our live demo! 🎬👇
 
-[![Watch the video]
+[![Watch the video](https://youtu.be/TTffq0X2WVg)
 
 ---
 
